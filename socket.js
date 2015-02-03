@@ -113,7 +113,7 @@ abToS = function(ab){
     var f = "";
     var u = new Uint8Array(ab);
     for(var _s in u){
-        f=f+(String.fromCharCode(u[_s]));
+        f = f+(String.fromCharCode(u[_s]));
     }
     return f;
 };
